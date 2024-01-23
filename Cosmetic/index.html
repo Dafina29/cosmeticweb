@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+
+  <meta name="keywords" content="">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmetics</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+  <link rel="stylesheet" type="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="header1">
+        <nav>
+            <div class="nav__logo">DCOSMETICS</div>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="skincare.html">SKINCARE</a></li>
+              <li><a href="makeup.html">MAKEUP</a></li>
+              <li><a href="fragrance.html">FRAGRANCE</a></li>
+              <li><a href="cart.html">BAG</a></li>
+              
+            </ul>
+            </div>
+           
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+    <div class="container">
+        <div class="slider-wrapper">
+          <button id="prev-slide" class="slide-button material-symbols-rounded">
+           
+          </button>
+          <ul class="image-list">
+            <img class="image-item" src="img/a.jpg" alt="img-1" onclick="openPage('index.html')" />
+            <img class="image-item" src="img/fragrance2.jpg" alt="img-2"  onclick="openPage('fragrance.html')" />
+            <img class="image-item" src="img/fragrance6.jpg" alt="img-3"  onclick="openPage('fragrance.html')" />
+            <img class="image-item" src="img/gloss.jpg" alt="img-4"  onclick="openPage('index.html')" />
+            <img class="image-item" src="img/g.jpg" alt="img-5"  onclick="openPage('skincare.html')" />
+            <img class="image-item" src="img/chanel.jpg" alt="img-6"  onclick="openPage('index.html')" />
+            <img class="image-item" src="img/lipbalm.jpg" alt="img-7"  onclick="openPage('skincare.html')" />
+            <img class="image-item" src="img/makeup4.jpg" alt="img-8"  onclick="openPage('makeup.html')" />
+            <img class="image-item" src="img/b.jpg" alt="img-9"  onclick="openPage('skincare.html')" />
+            <img class="image-item" src="img/tan.jpg" alt="img-10"  onclick="openPage('skincare.html')" />
+          </ul>
+          <button id="next-slide" class="slide-button material-symbols-rounded">
+          
+          </button>
+        </div>
+        <div class="slider-scrollbar">
+          <div class="scrollbar-track">
+            <div class="scrollbar-thumb"></div>
+       </div>
+       </div>
+       </div>
+
+
+    <section id="product1" class="section-p1">
+        <h2>Best-Sellers</h2>
+        <p>Collection </p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='pindex.html';">
+                <img src="img/a.jpg" alt="">
+                <div class="des">
+                    <span>Estée Lauder</span>
+                    <h5>Advanced Night Repair Serum</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    
+                </div>
+                
+        </div>
+        <div class="pro">
+            <img src="img/b.jpg" alt="">
+            <div class="des">
+                <span>OLAPLEX</span>
+                <h5>Hair Perfector</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                
+            </div>
+            
+    </div>
+    <div class="pro">
+        <img src="img/c.jpg" alt="">
+        <div class="des">
+            <span>Fenty Beauty</span>
+            <h5>Soft Matte Longwear Foundation</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            
+        </div>
+        
+</div>
+<div class="pro">
+    <img src="img/d.jpg" alt="">
+    <div class="des">
+        <span>Anastasia Beverly Hills</span>
+        <h5>Fine Eyebrow Pencil</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        
+    </div>
+    
+</div>
+<div class="pro">
+    <img src="img/e.jpg" alt="">
+    <div class="des">
+        <span>Tarte</span>
+        <h5>Shape Tape Concealer</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        
+    </div>
+    
+</div>
+<div class="pro">
+    <img src="img/f.jpg" alt="">
+    <div class="des">
+        <span>Charlotte Tilbury</span>
+        <h5>Matte Lipstick</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        
+    </div>
+    
+</div>
+<div class="pro">
+    <img src="img/g.jpg" alt="">
+    <div class="des">
+        <span>Laneige</span>
+        <h5>Lip Sleeping Mask</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        
+    </div>
+   
+</div>
+<div class="pro">
+    <img src="img/h.jpg" alt="">
+    <div class="des">
+        <span>La Roche Posay</span>
+        <h5>Ultra Light Sunscreen Fluid</h5>
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        
+    </div>
+    
+</div>
+        </div>
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2>New Products</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/chanel.jpg" alt="">
+                <div class="des">
+                    <span>Chanel</span>
+                    <h5>Les Beiges Healthy Glow Bronzing Cream</h5>
+                    
+                    
+                </div>
+                
+        </div>
+        <div class="pro">
+            <img src="img/dermalogica.jpg" alt="">
+            <div class="des">
+                <span>dermalogica</span>
+                <h5>Micellar Prebiotic Precleanse</h5>
+                
+                
+            </div>
+            
+    </div>
+    <div class="pro">
+        <img src="img/gloss.jpg" alt="">
+        <div class="des">
+            <span>GLOW RECIPE</span>
+            <h5>Plum Plump Hyaluronic Gloss Balm</h5>
+            
+            
+        </div>
+        
+</div>
+<div class="pro">
+    <img src="img/rhode.png" alt="">
+    <div class="des">
+        <span>rhode</span>
+        <h5>Glazing Milk</h5>
+        
+       
+    </div>
+   
+</div>
+</div>
+</section>
+       
+    
+
+    <section id="newsletter" class="section-p1">
+    <div class="newstext">
+        <h4>Sign up for Newsletters</h4>
+        <p>Get E-mail about our <span>special offers.</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email adress">
+        <button class="normal">Sign Up</button>
+    </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">skincare</a></li>
+                        <li><a href="#">makeup</a></li>
+                        <li><a href="#">fragrance</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        
+                    </div>
+                    <ul>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    
+
+    
+    </section>
+        </div>
+    </footer>
+   
+        </div>
+            </div>
+           
+    
+
+   
+
+
+    <script src="script.js"></script>
+    <script> 
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+        function hideMenu(){
+          navLinks.style.right = "-250px"; 
+        }
+      </script>
+    <script>
+         
+    const initSlider = () => {
+        const imageList = document.querySelector(".slider-wrapper .image-list");
+        const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
+        const sliderScrollbar = document.querySelector(".container .slider-scrollbar");
+        const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
+        const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+        
+       
+        scrollbarThumb.addEventListener("mousedown", (e) => {
+            const startX = e.clientX;
+            const thumbPosition = scrollbarThumb.offsetLeft;
+            const maxThumbPosition = sliderScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
+            
+            
+            const handleMouseMove = (e) => {
+                const deltaX = e.clientX - startX;
+                const newThumbPosition = thumbPosition + deltaX;
+    
+                
+                const boundedPosition = Math.max(0, Math.min(maxThumbPosition, newThumbPosition));
+                const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
+                
+                scrollbarThumb.style.left = `${boundedPosition}px`;
+                imageList.scrollLeft = scrollPosition;
+            }
+    
+            
+            const handleMouseUp = () => {
+                document.removeEventListener("mousemove", handleMouseMove);
+                document.removeEventListener("mouseup", handleMouseUp);
+            }
+    
+            
+            document.addEventListener("mousemove", handleMouseMove);
+            document.addEventListener("mouseup", handleMouseUp);
+        });
+    
+        // Slide images according to the slide button clicks
+        slideButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                const direction = button.id === "prev-slide" ? -1 : 1;
+                const scrollAmount = imageList.clientWidth * direction;
+                imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+            });
+        });
+    
+         
+        const handleSlideButtons = () => {
+            slideButtons[0].style.display = imageList.scrollLeft <= 0 ? "none" : "flex";
+            slideButtons[1].style.display = imageList.scrollLeft >= maxScrollLeft ? "none" : "flex";
+        }
+    
+        
+        const updateScrollThumbPosition = () => {
+            const scrollPosition = imageList.scrollLeft;
+            const thumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollbar.clientWidth - scrollbarThumb.offsetWidth);
+            scrollbarThumb.style.left = `${thumbPosition}px`;
+        }
+    
+        
+        imageList.addEventListener("scroll", () => {
+            updateScrollThumbPosition();
+            handleSlideButtons();
+        });
+    }
+    
+    window.addEventListener("resize", initSlider);
+    window.addEventListener("load", initSlider);
+</script>
+<script>
+    function openPage(pageUrl) {
+      window.location.href = pageUrl;
+    }</script>
+   
+
+</body>
+</html>
